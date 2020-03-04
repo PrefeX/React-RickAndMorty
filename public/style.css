@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html,
+body {
+    font-family: 'Indie Flower', cursive !important;
+
+    background-image: url('./img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: initial;
+}
+
+.card-list a,
+.card-list a:hover,
+.card-list a:visited {
+    text-decoration: none;
+    color: inherit
+}
+
+.card.hover {
+    transition: 0.2s;
+}
+
+.card.hover:hover {
+    background-color: #343a40;
+    color: white;
+}
+
+.navbar-brand img {
+    max-height: 2em;
+}
+
+.navbar {
+    margin-bottom: 1em !important;
+}
+
+.card-body.flush,
+.card-footer.flush {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
